@@ -9,7 +9,7 @@ Composer te ayuda a declarar, gestionar, e instalar dependencias de proyectos PH
 
  Ver https://getcomposer.org/ para más información y documentación.
 
-## Instalación Composer en el sistema operativo Ubuntu:
+## [Instalación Composer en el sistema operativo Ubuntu:](#recomendado)
 ``` bash
 # Actualizar repositorios.
 sudo apt-get update
@@ -51,6 +51,7 @@ composer install
 composer test
 ```
 ## Instalación de PHP 8.1.4
+<a name=recomendado></a>
 
 ### Actualizar el Sistema Operativo
 
