@@ -51,8 +51,10 @@ composer install
 ``` bash
 composer test
 ```
-## Instalación de PHP 8.1.4
+
+[Subir](#top)
 <a name="recomendado"></a>
+## Instalación de PHP 8.1.4
 
 ### Actualizar el Sistema Operativo
 
@@ -112,4 +114,6 @@ composer
 - [Cómo instalar PHP 8.1 sobre Ubuntu 20.04](https://es.linuxcapable.com/how-to-install-php-8-1-on-ubuntu-20-04/).
 - [Actualizar Composer en Ubuntu](https://techvblogs.com/blog/update-composer-in-ubuntu).
 - [Composer: Dependency manager to PHP](https://github.com/composer/composer).
+
+
 [Subir](#top)
