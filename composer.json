@@ -1,7 +1,8 @@
 {
     "name": "jgaspar/testing-php-composer-template",
-    "description": "Entorno de prueba para PHP Composer",
+    "description": "Plantilla entorno de prueba PHPUnit y PHP con Composer",
     "type": "project",
+    "license": "Apache",
     "authors": [
         {
             "name": "José Gaspar Sánchez García",

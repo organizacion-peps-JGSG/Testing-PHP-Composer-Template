@@ -1,5 +1,5 @@
 # Testing-PHP-Composer-Template
-Plantilla entorno de prueba PHP-Composer.
+Plantilla entorno de prueba PHP-Composer y Testing con PHPUnit.
 <p align="center">
     <a href="https://getcomposer.org/">
         <img alt="Logotipo de Composer" src="images/composer_logo.png">
@@ -16,6 +16,12 @@ sudo apt-get update
 # Instalar Composer en el sistema operativo.
 sudo apt-get install composer -y
 ```
+## Instalación PHPUnit
+``` bash
+# Instalar Composer en el sistema operativo.
+sudo apt-get install phpunit -y
+```
+
 ## Listado de comandos disponibles en Composer
 ``` bash
 composer list
