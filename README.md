@@ -50,3 +50,54 @@ composer install
 ``` bash
 composer test
 ```
+## Instalación de PHP 8.1.4
+
+### Actualizar el Sistema Operativo
+
+``` bash
+sudo apt update && sudo apt upgrade -y
+```
+### Incluir nuenvo repositorio para PHP 8
+
+``` bash
+# Añadimos un nuevo repostorio
+sudo apt install software-properties-common && sudo add-apt-repository ppa:ondrej/php -y
+
+# Actualizamos la lista de repositorios APT
+sudo apt update
+
+# A continuación actualizaremos los paquetes que así lo requieran
+sudo apt upgrade -y
+```
+
+### Instalar el módulo Apache
+
+``` bash
+# Instalación de PHP 8.1 con el módulo Apache 2
+sudo apt install php8.1 libapache2-mod-php8.1
+
+# Reiniciamos el servidor Apache para que cargue el módulo de nuevo.
+sudo systemctl restart apache2
+
+# Comprobamos la versión de PHP instalada
+php -- version
+```
+
+### Actualización de Composer
+``` bash
+#!/bin/bash
+# Eliminamos la instalación de composer previa
+sudo apt-get remove composer -y
+```
+Descarar e instalar composer
+
+``` bash
+sudo su
+
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php --install-dir=/usr/bin --filename=composer
+
+# Comprobamos que se ha instalado la ultima versión de composer
+composer
+```
+
