@@ -1,4 +1,4 @@
-# Testing-PHP-Composer-Template
+# Testing-PHP-PHPUnit-Composer-Template
 Plantilla entorno de prueba PHP-Composer y Testing con PHPUnit.
 <p align="center">
     <a href="https://getcomposer.org/">
@@ -89,7 +89,7 @@ php -- version
 # Eliminamos la instalación de composer previa
 sudo apt-get remove composer -y
 ```
-Descarar e instalar composer
+Descargar e instalar composer
 
 ``` bash
 sudo su
@@ -100,4 +100,12 @@ php composer-setup.php --install-dir=/usr/bin --filename=composer
 # Comprobamos que se ha instalado la ultima versión de composer
 composer
 ```
+![Composer 2](images/Composer2.png)
 
+## Referencias:
+- [PHP](https://www.php.net/).
+- [PHP Unit](https://phpunit.de/).
+- [Composer](https://getcomposer.org/).
+- [Cómo instalar PHP 8.1 sobre Ubuntu 20.04](https://es.linuxcapable.com/how-to-install-php-8-1-on-ubuntu-20-04/).
+- [Actualizar Composer en Ubuntu](https://techvblogs.com/blog/update-composer-in-ubuntu).
+- [Composer: Dependency manager to PHP](https://github.com/composer/composer).
