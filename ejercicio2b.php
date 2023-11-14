@@ -1,5 +1,7 @@
 <?php
 
+include 'funciones/ejercicio2b.php';
+
 $nombre = strval(readline("Introduce tu nombre: "));
 
 $edad = intval(readline("Introduce tu edad: "));
@@ -11,14 +13,3 @@ if (esMayorEdad($edad)) {
 }
 
 
-
-function esMayorEdad($e)
-{
-    if ($e >= 18)
-    {
-        return true;
-    } else 
-    {
-        return false;
-    }
-}
