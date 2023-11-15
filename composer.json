@@ -1,12 +1,12 @@
 {
-    "name": "jgaspar/testing-php-composer-template",
+    "name": "fragarflo04/testing-php-composer-template",
     "description": "Plantilla entorno de prueba PHPUnit y PHP con Composer",
     "type": "project",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "José Gaspar Sánchez García",
-            "email": "jg.sanchezgarcia@edu.gva.es"
+            "name": "Fran García",
+            "email": "fragarflo4a@alu.edu.gva.es"
         }
     ],
     "require": {
