@@ -3,7 +3,8 @@
     "authors": [
         {
             "name": "JAVI",
-            "email": "javvincos@alu.edu.gva.es"
+            "email": "javvincos@alu.edu.gva.es",
+	    "license": "proprietary",
         }
     ],
     "require": {}
