@@ -3,7 +3,8 @@
  * Pruebas unitarias clase Serpiente.php
  * @author José Gaspar Sánchez Garcia
  */
-include 'Serpiente.php';
+require 'Serpiente.php';
+
 
 use PHPUnit\Framework\TestCase;
 
