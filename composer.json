@@ -1,11 +1,13 @@
 {
     "name": "ciberseguridad/testing-php-composer-jvc",
+    "description": "A brief description of your package",
     "authors": [
         {
             "name": "JAVI",
             "email": "javvincos@alu.edu.gva.es",
-	    "license": "proprietary",
+            "license": "proprietary"
         }
     ],
     "require": {}
 }
+
