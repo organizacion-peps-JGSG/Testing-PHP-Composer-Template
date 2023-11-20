@@ -1,11 +1,11 @@
 <?php
 /**
  * Pruebas unitarias clase Serpiente.php
- * @author José Gaspar Sánchez Garcia
+ * @author Javier Vinal Costa
  */
 require 'Serpiente.php';
 
-
+     
 use PHPUnit\Framework\TestCase;
 
 class SerpienteTest extends TestCase
