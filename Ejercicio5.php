@@ -1,45 +1,58 @@
-<?php
-function esPar($numero) {
-    return $numero % 2 === 0;
+<?php 
+
+function esPar($n)
+{
+    if ($n % 2 == 0) return true;
+    return false;
 }
 
-function esImpar($numero) {
-    return $numero % 2 !== 0;
+function esImpar($n)
+{
+    if ($n % 2 != 0) return true;
+
+    return false;
 }
 
-function generarPares($n, $valor_inicial) {
+
+function generarPares($valores,$inicio)
+{
     $pares = [];
-    if (esImpar($valor_inicial)) {
-        $pares[] = $valor_inicial + 1;
-        $n--;
+
+    while (count($pares) < $valores)
+    {
+        if (esPar($inicio))
+        {
+            array_push($pares,$inicio);
+        }
+        $inicio++;
+
     }
-    for ($i = 0; $i < $n; $i++) {
-        $pares[] = $valor_inicial + ($i * 2);
-    }
+
     return $pares;
+
+
 }
 
-function generarImpares($n, $valor_inicial) {
+function generarImpares($valores,$inicio)
+{
     $impares = [];
-    if (esPar($valor_inicial)) {
-        $impares[] = $valor_inicial + 1;
-        $n--;
-    }
-    for ($i = 0; $i < $n; $i++) {
-        $impares[] = $valor_inicial + ($i * 2);
+
+    while (count($impares) < $valores)
+    {
+        if (esImpar($inicio))
+        {
+            array_push($impares,$inicio);
+        }
+        $inicio++;
     }
     return $impares;
 }
 
-// Ejemplos de uso:
-echo "¿Es par 6? " . (esPar(6) ? "Sí" : "No") . "<br>";
-echo "¿Es impar 7? " . (esImpar(7) ? "Sí" : "No") . "<br>";
-
-echo "Pares: ";
-$pares = generarPares(5, 10); // Genera 5 números pares empezando desde 10
-echo "[" . implode(", ", $pares) . "]<br>";
-
-echo "Impares: ";
-$impares = generarImpares(5, 11); // Genera 5 números impares empezando desde 11
-echo "[" . implode(", ", $impares) . "]<br>";
-?>
+print("Par e impar\n");
+$n=intval(readline("Introduzca un numero: "));
+$m=intval(readline("Introduzca el número de valores: "));
+$i=intval(readline("Introduzca el número inicial: "));
+$x=generarPares($m,$i);
+$y=generarImpares($m,$i);
+print_r("Impares: ".json_encode($y).PHP_EOL);
+print_r("Pares: ".json_encode($x).PHP_EOL);
