@@ -30,9 +30,9 @@ function menuApp() {
         $opcion = intval(readline("Introduzca opción: "));
 
         if ($opcion == 1) {
-            $s1 = intval(readline("Introduzca el primer sumando: "));
-            $s2 = intval(readline("Introduzca el segundo sumando: "));
-            echo "La suma de $s1 + $s2 = " . suma($s1, $s2) . ".\n";
+            $suma1 = intval(readline("Introduzca el primer sumando: "));
+            $suma2 = intval(readline("Introduzca el segundo sumando: "));
+            echo "La suma de $suma1 + $suma2 = " . suma($suma1, $suma2) . ".\n";
         } elseif ($opcion == 2) {
             $minuendo = intval(readline("Introduzca el minuendo: "));
             $sustraendo = intval(readline("Introduzca el sustraendo: "));
