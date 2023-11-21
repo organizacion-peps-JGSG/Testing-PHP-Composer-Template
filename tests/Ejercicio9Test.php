@@ -1,3 +1,9 @@
+<?php
+
+use PHPUnit\Framework\TestCase;
+
+include '../Ejercicio9.phpp'; // Asegúrate de incluir el archivo que contiene las funciones
+
 class test_ejercicio9 extends TestCase
 {
     public function testSuma()
@@ -25,3 +31,4 @@ class test_ejercicio9 extends TestCase
         divide(5, 0);
     }
 }
+?>

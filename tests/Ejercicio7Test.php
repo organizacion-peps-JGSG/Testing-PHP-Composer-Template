@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-include './funciones/ejercicio5.php'; // Asegúrate de incluir el archivo que contiene las funciones
+include '../Ejercicio7.phpp'; // Asegúrate de incluir el archivo que contiene las funciones
 
 class test_ejercicio5 extends TestCase
 {

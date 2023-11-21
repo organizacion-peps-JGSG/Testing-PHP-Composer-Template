@@ -1,6 +1,6 @@
 <?php 
 use PHPUnit\Framework\TestCase;
-include './funciones/ejercicio3.php'; // Asegúrate de que la ruta del archivo sea correcta
+include '../Ejercicio3.php'; // Asegúrate de que la ruta del archivo sea correcta
 
 class test_ejercicio3 extends TestCase
 {

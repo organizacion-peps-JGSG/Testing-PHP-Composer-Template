@@ -1,13 +1,18 @@
 {
-    "name": "ciberseguridad/testing-php-composer-jvc",
-    "description": "A brief description of your package",
+    "name": "javier/testing-php",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Javier\\TestingPhp\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "JAVI",
-            "email": "javvincos@alu.edu.gva.es",
-            "license": "proprietary"
+            "name": "Javier Vinal",
+            "email": "98608731+JavierVICO@users.noreply.github.com"
         }
     ],
     "require": {}
 }
-
