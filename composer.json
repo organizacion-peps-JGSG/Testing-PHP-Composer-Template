@@ -2,7 +2,7 @@
     "name": "javier/testing-php",
     "description": "Plantilla entorno de prueba PHPUnit y PHP con Composer",
     "type": "project",
-    "license": "Apache-2.0",
+    "license": "proprietary",
     "require-dev": {
         "phpunit/phpunit": "^9.6"
     },
