@@ -16,7 +16,7 @@ function divide($x, $y) {
     return $x / $y;
 }
 
-function menuApp() {
+function menuCalculadora() {
     echo "MENU CALCULADORA\n";
     $opcion = -1;
 
@@ -51,4 +51,5 @@ function menuApp() {
     }
 }
 
-menuApp();
+menuCalculadora();
+?>

@@ -56,3 +56,4 @@ $x=generarPares($m,$i);
 $y=generarImpares($m,$i);
 print_r("Impares: ".json_encode($y).PHP_EOL);
 print_r("Pares: ".json_encode($x).PHP_EOL);
+?>

@@ -17,3 +17,4 @@ function obtenerCalificaion($n)
 
 $n=intval(readline("Introduzca la nota: "));
 echo ('Calificación: '. obtenerCalificaion($n));
+?>

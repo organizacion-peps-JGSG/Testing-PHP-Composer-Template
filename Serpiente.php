@@ -5,7 +5,7 @@
      * @author José Gaspar Sánchez García
      */
 
-     include 'Animal.php';
+    
 
     class Serpiente extends Animal{
         protected $longitud;

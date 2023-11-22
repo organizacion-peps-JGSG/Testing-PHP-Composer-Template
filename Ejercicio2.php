@@ -1,15 +1,15 @@
-<?php 
+<?php
+function verificarEdad($edad) {
+    if ($edad >= 18) {
+        return "Usted es mayor de edad";
+    } else {
+        return "Todavía eres menor de edad";
+    }
+}
 
+// Para probar la función
 $nombre = strval(readline("Introduce tu nombre: "));
-
 $edad = intval(readline("Introduce tu edad: "));
 
-if ($edad >= 18)
-{
-    echo "Usted es mayor de edad";
-    return true;
-}else
-{
-    echo "Todavía eres menor de edad";
-    return false;
-}
+echo verificarEdad($edad);
+?>

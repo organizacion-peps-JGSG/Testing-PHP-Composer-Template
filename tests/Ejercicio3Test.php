@@ -1,6 +1,6 @@
 <?php 
 use PHPUnit\Framework\TestCase;
-include '../Ejercicio3.php'; // Asegúrate de que la ruta del archivo sea correcta
+include '"C:\xampp\htdocs\Testing-PHP-Composer-JVC\Ejercicio3.php"' ;
 
 class test_ejercicio3 extends TestCase
 {

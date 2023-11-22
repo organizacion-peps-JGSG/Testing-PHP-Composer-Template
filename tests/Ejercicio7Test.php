@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-include '../Ejercicio7.phpp'; // Asegúrate de incluir el archivo que contiene las funciones
+include '"C:\xampp\htdocs\Testing-PHP-Composer-JVC\Ejercicio7.php"';
 
 class test_ejercicio5 extends TestCase
 {

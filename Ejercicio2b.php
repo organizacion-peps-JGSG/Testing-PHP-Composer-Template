@@ -22,3 +22,4 @@ function esMayorEdad($e)
         return false;
     }
 }
+?>

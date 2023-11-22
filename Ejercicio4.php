@@ -36,3 +36,4 @@ function jugarPiedraPapelTijeras($tiradas) {
 }
 
 jugarPiedraPapelTijeras(5);
+?>
