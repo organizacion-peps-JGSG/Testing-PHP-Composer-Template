@@ -17,5 +17,8 @@
             "email": "98608731+JavierVICO@users.noreply.github.com"
         }
     ],
+    "scripts": {
+        "test": "phpunit tests"
+    },
     "require": {}
 }
