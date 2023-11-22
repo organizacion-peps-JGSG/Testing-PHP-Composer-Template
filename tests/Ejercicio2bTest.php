@@ -2,7 +2,7 @@
 use PHPUnit\Framework\TestCase;
 
 
-include '"C:\xampp\htdocs\Testing-PHP-Composer-JVC\Ejercicio2b.php"';
+include '../';
 class test_ejercicio2b extends TestCase
 {
     public function testMayorDeEdad()
