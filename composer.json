@@ -19,6 +19,5 @@
     ],
     "scripts": {
         "test": "phpunit tests"
-    },
-    "require": {}
+    }
 }

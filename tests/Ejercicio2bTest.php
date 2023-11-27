@@ -2,7 +2,7 @@
 use PHPUnit\Framework\TestCase;
 
 
-include './Functions/ejercicio2b.php';
+include './Ejercicio2b.php';
 class test_ejercicio2b extends TestCase
 {
     public function testMayorDeEdad()

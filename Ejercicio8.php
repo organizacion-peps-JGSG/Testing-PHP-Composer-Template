@@ -1,32 +1,17 @@
 <?php
-
-function fibonacci($n)
+function imprimirTablaMultiplicar($numero)
 {
-    $sequence = [];
+    echo "Tabla de multiplicar del " . $numero . "<br/>";
+    echo "------------------------------<br/>";
 
-    if ($n <= 0) {
-        return $sequence;
+    for ($i = 0; $i < 10; $i++) {
+        echo $numero . " x " . $i . " = " . ($numero * $i) . "<br/>";
     }
 
-    $sequence[] = 1;
-
-    if ($n > 1) {
-        $sequence[] = 1;
-
-        $contador = 2;
-        
-        while ($contador < $n) {
-            $next = $sequence[$contador - 1] + $sequence[$contador - 2];
-            $sequence[] = $next;
-            $contador++;
-        }   
-    }
-
-    return $sequence;
+    echo "<br/>";
 }
 
+// Llamada a la función con un número específico
 $num = intval(readline("Introduce un número: "));
-$fibonacciSequence = fibonacci($num);
-
-echo "La sucesión de Fibonacci es --> " . json_encode($fibonacciSequence);
+imprimirTablaMultiplicar($num);s cambiar el número según tus necesidades
 ?>

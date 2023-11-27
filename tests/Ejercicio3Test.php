@@ -1,6 +1,6 @@
 <?php 
 use PHPUnit\Framework\TestCase;
-include './Functions/ejercicio3.php';
+include './Ejercicio3.php';
 
 class test_ejercicio3 extends TestCase
 {

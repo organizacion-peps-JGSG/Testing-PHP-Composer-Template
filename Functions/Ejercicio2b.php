@@ -1,7 +1,7 @@
 
 <?php
 
-function esMayorEdad($e)
+public function esMayorEdad($e)
 {
     if ($e >= 18)
     {
