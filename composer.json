@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "José Gaspar Sánchez García",
-            "email": "jg.sanchezgarcia@edu.gva.es"
+            "name": "Mario Davó Asensio",
+            "email": "mardavase@alu.edu.gva.es"
         }
     ],
     "require": {
@@ -17,5 +17,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejercicios\\": "Ejercicios/"
+        }
     }
 }
