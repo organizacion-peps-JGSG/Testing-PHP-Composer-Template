@@ -1,6 +1,8 @@
 <?php
 
-class CheckAge
+namespace Ejercicios;
+
+class Ejercicio2
 {
     const LEGAL_AGE = 18;
 
@@ -28,9 +30,6 @@ class CheckAge
     {
         return $age >= self::LEGAL_AGE;
     }
+    //$checkAge = new CheckAge();
+    //$checkAge->init();
 }
-
-//$checkAge = new CheckAge();
-//$checkAge->init();
-
-

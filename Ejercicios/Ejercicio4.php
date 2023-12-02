@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicios;
+
 class Ejercicio4
 {
     public $numberOfTurns = 0;

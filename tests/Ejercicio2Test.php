@@ -6,6 +6,7 @@
 include dirname(__FILE__).'\..\Ejercicios\Ejercicio2.php';
 
 use PHPUnit\Framework\TestCase;
+use Ejercicios\Ejercicio2;
 
 class Ejercicio2Test extends TestCase
 {
@@ -14,7 +15,7 @@ class Ejercicio2Test extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->checkAge = new CheckAge();
+        $this->checkAge = new Ejercicio2();
     }
 
     protected function tearDown(): void

@@ -1,5 +1,6 @@
 <?php
 
+namespace Ejercicios;
 class Ejercicio9
 {
     const OPTION_1 = 1;

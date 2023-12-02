@@ -1,5 +1,6 @@
 <?php
 
+namespace Ejercicios;
 class Ejercicio5
 {
     public ?int $length = null;

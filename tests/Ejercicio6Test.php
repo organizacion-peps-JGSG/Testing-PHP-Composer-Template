@@ -3,9 +3,8 @@
  * Pruebas unitarias clase Animal.php
  * @author Mario Davó Asensio
  */
-include dirname(__FILE__) . '\..\Ejercicios\Ejercicio6.php';
-
 use PHPUnit\Framework\TestCase;
+use Ejercicios\Ejercicio6;
 
 class Ejercicio6Test extends TestCase
 {
