@@ -2,11 +2,19 @@
 <html lang="es">
     <head>
         <title>Ejercicio 6. Adivina número secreto</title>
-        <script src="js/ejercicio6.js"></script>
     </head>
     <body>
         <h1>Ejercicio 6. Adivina número secreto</h1>
         <p>Realice una aplicación que permita averiguar un número secreto entre 0 y 10, permitiendo que el usuario pueda escoger el número de intentos.</p>
-        <b>Intentos: </b><p id="intentos"></p>      
+
+        <b>Intentos: </b><p id="intentos"></p>
+
+        <form method="post" action="adivina_numero.php">
+            <label for="numeroUsuario">Adivina el número secreto (entre 0 y 10): </label>
+            <input type="number" name="numeroUsuario" min="0" max="10" required>
+            <input type="submit" value="Adivinar">
+        </form>
+
+        <script src="js/actualizar_intentos.js"></script>
     </body>
 </html>
